@@ -30,6 +30,36 @@ A real-time AI-powered platform that detects road accidents using computer visio
 
 <details>
 <summary>Click to view</summary>
+ai-accident-detection-system/
+  frontend/                  # React UI with Material UI
+    components/
+    pages/
+    App.js
+    index.js
+    package.json
+
+  backend/                   # Node.js API server
+    routes/
+    controllers/
+    server.js
+    package.json
+
+  ai_service/                # FastAPI + YOLOv8 ML models
+    detection.py
+    model/
+    main.py
+    requirements.txt
+
+  firebase/                  # Firebase setup
+    auth/
+    firestore/
+
+  public_assets/             # Static files like logo, favicon
+    favicon.ico
+    index.html
+
+  .gitignore
+  README.md
 
 </details>
 

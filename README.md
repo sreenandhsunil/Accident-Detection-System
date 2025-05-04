@@ -31,3 +31,32 @@ A real-time AI-powered platform that detects road accidents using computer visio
 <details>
 <summary>Click to view</summary>
 
+</details>
+
+---
+
+## 🧠 Skills Demonstrated
+
+- End-to-end full-stack development
+- Real-time AI inference pipeline
+- RESTful API design and integration
+- Secure user management
+- Scalable cloud-based architecture
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repo
+git clone https://github.com/sreenandh/ai-accident-detection.git
+
+# Go into client & install dependencies
+cd client
+npm install
+
+# Start client
+npm start
+
+# Go into backend (server or ai_service) and run APIs
+

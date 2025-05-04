@@ -48,15 +48,21 @@ A real-time AI-powered platform that detects road accidents using computer visio
 ## 🚀 Getting Started
 
 ```bash
-# Clone the repo
+# 1. Clone the repository
 git clone https://github.com/sreenandh/ai-accident-detection.git
+cd ai-accident-detection
 
-# Go into client & install dependencies
-cd client
+# 2. Install frontend dependencies
+cd frontend
 npm install
+npm start  # Runs the frontend React app
 
-# Start client
-npm start
+# 3. In a new terminal, start the Node.js backend
+cd ../backend
+npm install
+node server.js
 
-# Go into backend (server or ai_service) and run APIs
-
+# 4. In a third terminal, run the Python AI service
+cd ../ai_service
+pip install -r requirements.txt
+uvicorn main:app --reload  # Runs the FastAPI server
